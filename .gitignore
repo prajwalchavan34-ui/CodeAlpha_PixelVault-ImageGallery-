@@ -1,0 +1,38 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+client/.env
+server/.env
+*.env
+
+# Build outputs
+client/dist/
+dist/
+build/
+
+# Editor & OS files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Log files
+logs
+*.log
+npm-debug.log*
+
+# Antigravity artifacts/scratch
+.gemini/
